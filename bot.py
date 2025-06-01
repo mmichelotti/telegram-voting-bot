@@ -58,7 +58,7 @@ async def set_vote(update: Update, context: ContextTypes.DEFAULT_TYPE):
     save_data(VOTES_FILE, votes)
 
     avg = sum(votes[item].values()) / len(votes[item])
-    await query.edit_message_text(f"Thanks! Current average for "{item}": {avg:.2f}/10")
+    await query.edit_message_text(f'Thanks! Current average for "{item}": {avg:.2f}/10')
 
 async def results(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = "Current Results:\n"
