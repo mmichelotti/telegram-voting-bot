@@ -1,0 +1,1 @@
+# Telegram Voting Bot\nSimple Telegram bot for rating items from 1 to 10.
