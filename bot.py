@@ -4,8 +4,9 @@ import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandler, ContextTypes
 
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 TOKEN = "7686518946:AAHNz9AoIHnJHY3BOqHDZgjzMo2k1V5LsqU"
-ADMIN_IDS = [123456789]  # Replace with your Telegram user ID
+ADMIN_IDS = [365740977]  # Replace with your Telegram user ID
 
 VOTES_FILE = "votes.json"
 ITEMS_FILE = "items.json"
